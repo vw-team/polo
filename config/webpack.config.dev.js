@@ -150,6 +150,27 @@ module.exports = {
       // Support React Native Web
       // https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/
       'react-native': 'react-native-web',
+      '@': paths.appSrc,
+      '@comp': paths.comp,
+      '@con': paths.con,
+      '@route': paths.route,
+      '@module': paths.module,
+      '@store': paths.store,
+      '@scss': paths.scss,
+      '@common': paths.common,
+      '@commonStore': paths.commonStore,
+      '@commonScss': paths.commonScss,
+      '@commonStyled': paths.commonStyled,
+      '@util': paths.util,
+      '@tool': paths.tool,
+      '@lib': paths.lib,
+      '@mock': paths.mock,
+      '@test': paths.test,
+      '@static': paths.static,
+      '@icon': paths.icon,
+      '@image': paths.image,
+      '@music': paths.music,
+      '@vedio': paths.vedio,
     },
     plugins: [
       // Adds support for installing with Plug'n'Play, leading to faster installs and adding

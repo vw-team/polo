@@ -1,0 +1,43 @@
+[ignore]
+.*/node_modules/styled-components/.*
+
+[include]
+.*/src/.*
+
+[libs]
+
+[lints]
+
+[options]
+module.file_ext=.js
+module.file_ext=.jsx
+module.file_ext=.json
+module.file_ext=.css
+module.file_ext=.scss
+module.name_mapper='.*\(.s?css\)' -> 'css-module-flow'
+module.name_mapper='^@/' -> '<PROJECT_ROOT>/src/'
+module.name_mapper='^@comp' -> '<PROJECT_ROOT>/src/components'
+module.name_mapper='^@con' -> '<PROJECT_ROOT>/src/container'
+module.name_mapper='^@route' -> '<PROJECT_ROOT>/src/container/route'
+module.name_mapper='^@module' -> '<PROJECT_ROOT>/src/store/module'
+module.name_mapper='^@scss' -> '<PROJECT_ROOT>/src/scss'
+module.name_mapper='^@common/' -> '<PROJECT_ROOT>/src/common'
+module.name_mapper='^@commonStore' -> '<PROJECT_ROOT>/src/common/store'
+module.name_mapper='^@commonScss' -> '<PROJECT_ROOT>/src/common/scss'
+module.name_mapper='^@commonStyled' -> '<PROJECT_ROOT>/src/common/styled'
+module.name_mapper='^@util' -> '<PROJECT_ROOT>/src/util'
+module.name_mapper='^@tool' -> '<PROJECT_ROOT>/src/util/tools'
+module.name_mapper='^@static' -> '<PROJECT_ROOT>/src/static'
+module.name_mapper='^@icon' -> '<PROJECT_ROOT>/src/static/icon'
+module.name_mapper='^@image' -> '<PROJECT_ROOT>/src/static/image'
+module.name_mapper='^@picture' -> '<PROJECT_ROOT>/src/static/picture'
+module.name_mapper='^@music' -> '<PROJECT_ROOT>/src/static/music'
+module.name_mapper='^@vedio' -> '<PROJECT_ROOT>/src/static/vedio'
+module.name_mapper='^@lib' -> '<PROJECT_ROOT>/src/lib'
+module.name_mapper='^@mock' -> '<PROJECT_ROOT>/src/lib/mock'
+module.name_mapper='^@test' -> '<PROJECT_ROOT>/src/lib/test'
+esproposal.decorators=ignore
+module.system=haste
+suppress_comment= \\(.\\|\n\\)*\\$FlowIgnore
+
+[strict]

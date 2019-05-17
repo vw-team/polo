@@ -82,6 +82,28 @@ module.exports = {
   appNodeModules: resolveApp('node_modules'),
   publicUrl: getPublicUrl(resolveApp('package.json')),
   servedPath: getServedPath(resolveApp('package.json')),
+  // user defined
+  comp: resolveApp('src/components'),
+  con: resolveApp('src/container'),
+  route: resolveApp('src/container/route'),
+  module: resolveApp('src/container/module'),
+  store: resolveApp('src/store'),
+  scss: resolveApp('src/scss'),
+  common: resolveApp('src/common'),
+  commonStore: resolveApp('src/common/store'),
+  commonScss: resolveApp('src/common/scss'),
+  commonStyled: resolveApp('src/common/styled'),
+  util: resolveApp('src/util'),
+  tool: resolveApp('src/util/tools'),
+  lib: resolveApp('src/lib'),
+  mock: resolveApp('src/lib/mock'),
+  test: resolveApp('src/lib/test'),
+  static: resolveApp('src/static'),
+  icon: resolveApp('src/static/icon'),
+  image: resolveApp('src/static/image'),
+  picture: resolveApp('src/static/picture'),
+  music: resolveApp('src/static/music'),
+  vedio: resolveApp('src/static/vedio'),
 };
 
 

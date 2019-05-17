@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import '@commonScss/index.scss';
+
 class App extends Component {
   render() {
     return (
