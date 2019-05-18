@@ -2,7 +2,6 @@
 
 * {
   box-sizing: border-box;
-  font-family: 'Open Sans', 'sans-serif', Helvetica, 'Helvetica Neue', Verdana;
 }
 
 html {
@@ -13,14 +12,15 @@ html {
 }
 
 body {
-  color: $c000;
-  background-color: $fff;
-  font-size: 1.5rem;
-  // font-family: 'Helvetica', 'Helvetica Neue', 'Verdana', 'sans-serif', 'Arial', 'PingFang SC', 'Microsoft YaHei';
   margin: 0;
   padding: 0;
   line-height: 1.5;
+  font-size: 1.5rem;
   touch-action: none;
+  font-family: 'Open Sans', 'sans-serif', Helvetica, 'Helvetica Neue', Verdana;
+  // font-family: 'Helvetica', 'Helvetica Neue', 'Verdana', 'sans-serif', 'Arial', 'PingFang SC', 'Microsoft YaHei';
+  color: $c000;
+  background-color: $fff;
 }
 
 ::selection {
