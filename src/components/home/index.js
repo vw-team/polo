@@ -1,6 +1,7 @@
 // flow
 import React, { Component } from 'react';
-import Button from '@material-ui/core/Button';
+import { Button } from '@material-ui/core';
+import AppNav from '@comp/common/app-nav';
 
 type Props = {};
 type State = {};
@@ -22,6 +23,8 @@ class Home extends Component<Props, State> {
         <p>
           <small>上汽大众</small>
         </p>
+
+        <AppNav />
       </div>
     )
   }
