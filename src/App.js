@@ -5,7 +5,10 @@ import AppTheme from '@route/app-theme';
 import AppRoute from '@route/app-route';
 import '@commonScss/index.scss';
 
-class App extends Component {
+type Props = {};
+type State = {};
+
+class App extends Component<Props, State> {
   render() {
     return (
       <AppTheme>

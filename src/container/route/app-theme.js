@@ -1,4 +1,3 @@
-// @flow
 import React, { Component } from 'react';
 import { createMuiTheme, MuiThemeProvider } from '@material-ui/core/styles';
 

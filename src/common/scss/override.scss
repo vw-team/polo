@@ -1,1 +1,8 @@
 @import './color.scss';
+
+.MuiAppBar-positionFixed {
+  top: auto !important;
+  bottom: 0;
+  height: 4rem;
+  justify-content: center;
+}

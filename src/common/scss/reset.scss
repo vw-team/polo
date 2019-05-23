@@ -1,14 +1,6 @@
 @import './color.scss';
 
-div, section, header, footer, p, ul, ol, dl {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-p, li, dt, dd {
-  display: inline-flex;
-}
-p {
-  margin: 0.6rem 0 0;
+div, section, p {
+  margin: 0;
   padding: 0;
 }
