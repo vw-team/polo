@@ -4,3 +4,19 @@ div, section, p {
   margin: 0;
   padding: 0;
 }
+
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+  width:12px;
+  background-color: rgb(245, 22, 70);
+  scrollBar-face-color: rgb(35, 21, 240);
+}
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  border-radius: 19px;
+  background: rgb(40, 44, 243);
+}
